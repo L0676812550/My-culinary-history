@@ -29,13 +29,6 @@
                 <li><a href="#Заморозка, дегідратор">Заморозка, дегідратор</a></li>
                 <li><a href="#Список покупок">Список покупок</a></li>
             </ul>
-
-            <!-- Форма поиска — это ещё один распространённый нелинейный способ навигации по веб-сайту. -->
-
-            <form>
-                <input type="search" name="q" placeholder="Search query">
-                <input type="submit" value="Go!">
-            </form>
         </nav>
 
         <main>
@@ -54,12 +47,26 @@
                 <p>Зробити окрему аплікацію-використовувати при поході в магазин</p>
 
             </article>
-
+<hr>
             <aside>
-                
-                <!--
-                Forms:
-                    -->
+<!--fill the "action"-->
+                <form action="#">
+                    <b>
+                        Ваша пошта:<input type="text" name="mailto"/><br><br>
+                        
+                        Пароль: <input type="password" name="password"><br><br>
+                        
+                        Залишити коментар: <br>
+                        <textarea rows="5" cols="30" name="commetnt"></textarea><br><br>
+                        
+                        <input type="checkbox" id="ok" name="ok" value="ok">
+                            <label for="ok">Отримувати розсилку</label><br><br>
+                        
+                        <input type="submit" name="submit" value="Надіслати">
+                    </b>
+                </form>
+            <hr>
+
                 <h2>Корисні для мене лінки:</h2>
 
                 <ul>
@@ -69,10 +76,8 @@
                 </ul>
             </aside>
         </main>
-
-        <footer>
-            <p>Here will be link to social media</p>
-        </footer>
-        
     </body>
+    <footer>
+        <p>Ccилки на мої соціальні сторінки, Пінтерест</p>
+    </footer>
 </html>
